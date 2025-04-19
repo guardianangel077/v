@@ -1,5 +1,5 @@
 if not game:IsLoaded() then
-    game.Loaded:Wait(2)
+    game.Loaded:Wait()
 end
 
 local player = game.Players.LocalPlayer
@@ -8,6 +8,6 @@ if not player.Character or not player.Character:FindFirstChild("HumanoidRootPart
     repeat task.wait(10) until player.Character and player.Character:FindFirstChild("HumanoidRootPart")
 end
 
-local wait_time = 2
+local wait_time = 15
 task.wait(wait_time)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/YOies/KazounVN/refs/heads/main/ARX"))()
