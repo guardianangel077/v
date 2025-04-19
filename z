@@ -5,7 +5,7 @@ end
 local player = game.Players.LocalPlayer
 if not player.Character or not player.Character:FindFirstChild("HumanoidRootPart") then
     player.CharacterAdded:Wait()
-    repeat task.wait() until player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+    repeat task.wait(10) until player.Character and player.Character:FindFirstChild("HumanoidRootPart")
 end
 
 local wait_time = 0
