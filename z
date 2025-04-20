@@ -1,13 +1,2 @@
-if not game:IsLoaded() then
-    game.Loaded:Wait()
-end
-
-local player = game.Players.LocalPlayer
-if not player.Character or not player.Character:FindFirstChild("HumanoidRootPart") then
-    player.CharacterAdded:Wait()
-    repeat task.wait(10) until player.Character and player.Character:FindFirstChild("HumanoidRootPart")
-end
-
-local wait_time = 15
-task.wait(wait_time)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YOies/KazounVN/refs/heads/main/ARX"))()
+script_key="hlmsbtPfTxNIksCwEJmOSlATtRzxSVmp";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
