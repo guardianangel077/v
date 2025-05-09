@@ -1,2 +1,2 @@
-script_key="ZwUkNxKQbCPhFCAMIFzMgUnOJFDIjWgd";
-loadstring(game:HttpGet("https://raw.githubusercontent.com/JustLevel/goombahub/main/goombahub.lua"))()
+getgenv().Key = "k3ace9c4f94ab9e52fbcd2ed"
+loadstring(game:HttpGet("https://nousigi.com/loader.lua"))() 
